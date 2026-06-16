@@ -1,17 +1,28 @@
-# Private keys must never be committed
-*.biprivatekey
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+*.RPT
 
 # Temporary files
-*.log
-*.bak
 *.tmp
+*.bak
+*.old
+*.orig
+
+# Python cache
 __pycache__/
+*.pyc
 
-# Local archives
-*.zip
-*.rar
-*.7z
+# DayZ private signing keys - never commit
+*.biprivatekey
+*privatekey*
 
-# DayZ tools temporary output
-*.dep
-*.temp
+# Workbench temporary/cache folders
+Temp/
+temp/
+
+# Local archives not meant for repository
+$-*/

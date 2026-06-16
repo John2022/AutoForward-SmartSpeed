@@ -1,0 +1,43 @@
+name: Server / setup help / Aide serveur ou installation
+description: Ask for help with installation, server loading or keybind setup. / Demander de l’aide pour l’installation, le serveur ou les commandes.
+title: "[Setup]: "
+labels: [support]
+body:
+  - type: dropdown
+    id: install_type
+    attributes:
+      label: Installation type / Type d’installation
+      options:
+        - Steam Workshop
+        - Manual local install / Installation locale manuelle
+        - Dedicated server / Serveur dédié
+        - Client and server / Client et serveur
+    validations:
+      required: true
+  - type: textarea
+    id: modline
+    attributes:
+      label: Server -mod line / Ligne -mod du serveur
+      description: Paste your server mod line if relevant. / Collez la ligne de mods serveur si utile.
+      render: text
+    validations:
+      required: false
+  - type: textarea
+    id: issue
+    attributes:
+      label: Problem / Problème
+      description: Describe the issue. / Décrivez le problème.
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: Checks already done / Vérifications déjà effectuées
+      description: Tell what you already checked. / Indiquez ce que vous avez déjà vérifié.
+      placeholder: |
+        - Client mod loaded / Mod chargé côté client
+        - Server mod loaded / Mod chargé côté serveur
+        - Public key present / Clé publique présente
+        - No duplicate local + Workshop mod / Pas de doublon local + Workshop
+    validations:
+      required: false

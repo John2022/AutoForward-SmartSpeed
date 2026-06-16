@@ -37,6 +37,26 @@ When enabled, the mod automatically keeps your character moving forward. It is d
 
 The keybind is listed under the Character controls category.
 
+### Installation
+
+Use the Steam Workshop version whenever possible:
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3746092811
+
+For manual installation, download the release archive and place `@AutoForward-SmartSpeed` in your DayZ server or client mod folder.
+
+More details: [docs/INSTALLATION.md](docs/INSTALLATION.md)
+
+### For server owners
+
+Monetized DayZ servers may use this mod, provided that access to the mod itself remains free.
+
+More details: [docs/SERVER_OWNERS.md](docs/SERVER_OWNERS.md)
+
+### Troubleshooting
+
+See [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) before opening an issue.
+
 ### Technical information
 
 - Mod folder: `@AutoForward-SmartSpeed`
@@ -89,6 +109,26 @@ Une fois activé, le mod maintient automatiquement le déplacement vers l’avan
 - Déplacement manuel, avancer/reculer, saut ou franchissement : arrête l’avance automatique.
 
 La commande est rangée dans la catégorie Personnage des contrôles.
+
+### Installation
+
+Utilisez la version Steam Workshop autant que possible :
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3746092811
+
+Pour une installation manuelle, téléchargez l’archive de release et placez `@AutoForward-SmartSpeed` dans le dossier de mods de votre serveur ou de votre client DayZ.
+
+Détails : [docs/INSTALLATION.md](docs/INSTALLATION.md)
+
+### Pour les administrateurs de serveurs
+
+Les serveurs DayZ monétisés peuvent utiliser ce mod, à condition que l’accès au mod lui-même reste gratuit.
+
+Détails : [docs/SERVER_OWNERS.md](docs/SERVER_OWNERS.md)
+
+### Dépannage
+
+Consultez [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) avant d’ouvrir une issue.
 
 ### Informations techniques
 
