@@ -1,43 +1,24 @@
-name: Feature request / Demande de fonctionnalité
-description: Suggest an improvement. / Proposer une amélioration.
-title: "[Feature]: "
+name: Feature request
+description: Suggest an improvement or new behavior.
+title: "[Feature] "
 labels: [enhancement]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ## English
-        Suggestions are welcome if they keep the mod lightweight and clear.
-
-        ## Français
-        Les suggestions sont acceptées si elles conservent un mod léger et clair.
   - type: textarea
-    id: summary
+    id: request
     attributes:
-      label: Summary / Résumé
-      description: Describe the requested feature. / Décrivez la fonctionnalité souhaitée.
+      label: Request / Demande
+      description: Describe the requested change. / Décrivez le changement demandé.
     validations:
       required: true
   - type: textarea
     id: use_case
     attributes:
       label: Use case / Cas d’usage
-      description: Explain why this would be useful. / Expliquez pourquoi ce serait utile.
+      description: Explain why it would be useful in game. / Expliquez pourquoi ce serait utile en jeu.
     validations:
       required: true
   - type: textarea
-    id: behavior
+    id: limits
     attributes:
-      label: Suggested behavior / Comportement proposé
-      description: Describe how it should work in game. / Décrivez le fonctionnement souhaité en jeu.
-    validations:
-      required: false
-  - type: checkboxes
-    id: constraints
-    attributes:
-      label: Constraints / Contraintes
-      options:
-        - label: This should not remove credits to John2022FR or GayCookie / Ne doit pas supprimer les crédits de John2022FR ou GayCookie
-          required: true
-        - label: This should not make access to the mod paid / Ne doit pas rendre l’accès au mod payant
-          required: true
+      label: Compatibility or simplicity concerns / Compatibilité ou simplicité
+      description: The mod is intended to stay focused and lightweight. / Le mod doit rester ciblé et léger.

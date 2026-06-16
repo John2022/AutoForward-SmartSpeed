@@ -1,6 +1,8 @@
-# Changelog
+# Changelog / Journal des modifications
 
 ## Version 1.0
+
+### English
 
 Initial stable release.
 
@@ -14,7 +16,7 @@ Initial stable release.
 - Reworked internal prefix and configuration under AFSS.
 - Added signed PBO and public key support.
 
-## Version 1.0
+### Français
 
 Première version stable.
 

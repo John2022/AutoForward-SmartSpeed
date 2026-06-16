@@ -2,32 +2,20 @@
 
 ## English
 
-### Auto-Forward Smart Speed
+Auto-Forward Smart Speed is a DayZ mod by John2022FR.
 
-- Fork / adaptation: John2022
-- Steam / DayZ author name: John2022FR
-- AFSS-specific changes, configuration, naming, assets, packaging and release: John2022FR
+Technical base: QuickStep by GayCookie.
 
-### Technical base
+Original QuickStep licence: WTFPL.
 
-- QuickStep by GayCookie
-- Original QuickStep licence: WTFPL
-
-Auto-Forward Smart Speed is a fork / adaptation based on QuickStep. The fork keeps a clear credit history and does not claim original authorship of QuickStep.
-
----
+AFSS-specific changes, configuration, naming, assets, packaging and release are by John2022FR.
 
 ## Français
 
-### Auto-Forward Smart Speed
+Auto-Forward Smart Speed est un mod DayZ de John2022FR.
 
-- Fork / adaptation : John2022
-- Nom d’auteur Steam / DayZ : John2022FR
-- Modifications propres à AFSS, configuration, nommage, éléments visuels, packaging et publication : John2022FR
+Base technique : QuickStep par GayCookie.
 
-### Base technique
+Licence originale de QuickStep : WTFPL.
 
-- QuickStep par GayCookie
-- Licence originale de QuickStep : WTFPL
-
-Auto-Forward Smart Speed est un fork / une adaptation basé sur QuickStep. Le fork conserve un historique clair des crédits et ne revendique pas la paternité originale de QuickStep.
+Les modifications propres à AFSS, la configuration, le nommage, les assets, le packaging et la publication sont réalisés par John2022FR.

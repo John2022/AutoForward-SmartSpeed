@@ -1,28 +1,19 @@
-# Windows
-Thumbs.db
-Desktop.ini
-
-# Logs
-*.log
-*.RPT
-
-# Temporary files
-*.tmp
-*.bak
-*.old
-*.orig
-
-# Python cache
-__pycache__/
-*.pyc
-
-# DayZ private signing keys - never commit
+# Private signing keys
 *.biprivatekey
+*biprivatekey*
 *privatekey*
 
-# Workbench temporary/cache folders
-Temp/
-temp/
+# Temporary files
+*.bak
+*.tmp
+*.log
+__pycache__/
 
-# Local archives not meant for repository
-$-*/
+# DayZ / build temporary files
+*.dep
+*.dbg
+*.map
+
+# Windows
+Thumbs.db
+desktop.ini

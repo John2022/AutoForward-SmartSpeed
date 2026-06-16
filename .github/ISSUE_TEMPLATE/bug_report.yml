@@ -1,40 +1,17 @@
-name: Bug report / Rapport de bug
-description: Report a reproducible issue with Auto-Forward Smart Speed. / Signaler un problème reproductible avec Auto-Forward Smart Speed.
-title: "[Bug]: "
+name: Bug report
+description: Report a bug with Auto-Forward Smart Speed.
+title: "[Bug] "
 labels: [bug]
 body:
   - type: markdown
     attributes:
       value: |
-        ## English
-        Please provide enough details to reproduce the issue.
-
-        ## Français
-        Merci de fournir suffisamment d’informations pour reproduire le problème.
-  - type: input
-    id: version
-    attributes:
-      label: Mod version / Version du mod
-      description: Example / Exemple: v1.0.0
-      placeholder: v1.0.0
-    validations:
-      required: true
-  - type: dropdown
-    id: environment
-    attributes:
-      label: Environment / Environnement
-      options:
-        - Client only / Client uniquement
-        - Server / Serveur
-        - Client and server / Client et serveur
-        - Unknown / Inconnu
-    validations:
-      required: true
+        English first, French second. / Anglais en premier, français en second.
   - type: textarea
     id: description
     attributes:
-      label: Issue description / Description du problème
-      description: Explain what happens. / Expliquez ce qui se passe.
+      label: Bug description / Description du bug
+      description: Explain what happened. / Expliquez ce qui s’est produit.
     validations:
       required: true
   - type: textarea
@@ -42,11 +19,6 @@ body:
     attributes:
       label: Steps to reproduce / Étapes pour reproduire
       description: List the exact steps. / Listez les étapes exactes.
-      placeholder: |
-        1. Load the mod / Charger le mod
-        2. Join a server / Rejoindre un serveur
-        3. Press the keybind / Appuyer sur la commande
-        4. Observe the issue / Constater le problème
     validations:
       required: true
   - type: textarea
@@ -55,17 +27,17 @@ body:
       label: Expected behavior / Comportement attendu
     validations:
       required: true
-  - type: textarea
-    id: actual
+  - type: input
+    id: dayz_version
     attributes:
-      label: Actual behavior / Comportement constaté
-    validations:
-      required: true
+      label: DayZ version / Version de DayZ
+  - type: textarea
+    id: mods
+    attributes:
+      label: Loaded mods / Mods chargés
+      description: Include client and server mods if relevant. / Indiquez les mods client et serveur si utile.
   - type: textarea
     id: logs
     attributes:
       label: Logs or screenshots / Logs ou captures
-      description: Add RPT logs, screenshots or videos if useful. / Ajoutez les logs RPT, captures ou vidéos utiles.
-      render: text
-    validations:
-      required: false
+      description: Add relevant RPT lines or screenshots. / Ajoutez les lignes RPT ou captures utiles.

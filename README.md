@@ -4,11 +4,9 @@
 
 Auto-Forward Smart Speed adds a smart auto-forward keybind for DayZ. It starts from your current movement state and lets you adjust speed using your configured walk and sprint controls (Ctrl & Shift by default).
 
-Auto-Forward Smart Speed ajoute une commande d’avance automatique intelligente pour DayZ. Le mod démarre selon votre état de déplacement actuel et permet d’ajuster la vitesse avec vos commandes configurées de marche et de sprint (Ctrl & Maj par défaut). (Description FR plus bas)
+Auto-Forward Smart Speed ajoute une commande d’avance automatique intelligente pour DayZ. Le mod démarre selon votre état de déplacement actuel et permet d’ajuster la vitesse avec vos commandes configurées de marche et de sprint (Ctrl & Maj par défaut).
 
 Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3746092811
-
----
 
 ## English
 
@@ -28,35 +26,6 @@ When enabled, the mod automatically keeps your character moving forward. It is d
 - Uses the player’s configured walk and sprint controls, not hardcoded keys.
 - Stops cleanly when using the auto-forward key again, movement keys, forward/backward input, jump or vault.
 
-### Controls
-
-- Auto-Forward Smart Speed: toggles auto-forward on or off.
-- Configured sprint control: increases speed while auto-forward is active.
-- Configured walk control: decreases speed while auto-forward is active.
-- Manual movement, forward/backward input, jump or vault: stops auto-forward.
-
-The keybind is listed under the Character controls category.
-
-### Installation
-
-Use the Steam Workshop version whenever possible:
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=3746092811
-
-For manual installation, download the release archive and place `@AutoForward-SmartSpeed` in your DayZ server or client mod folder.
-
-More details: [docs/INSTALLATION.md](docs/INSTALLATION.md)
-
-### For server owners
-
-Monetized DayZ servers may use this mod, provided that access to the mod itself remains free.
-
-More details: [docs/SERVER_OWNERS.md](docs/SERVER_OWNERS.md)
-
-### Troubleshooting
-
-See [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) before opening an issue.
-
 ### Technical information
 
 - Mod folder: `@AutoForward-SmartSpeed`
@@ -66,9 +35,15 @@ See [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) before opening an issue.
 - Version: `1.0`
 - Dependencies: none
 
+### Bug reports and feature requests
+
+Bug reports and feature requests should be opened from the GitHub **Issues** tab.
+
+Please use the provided forms so that server context, DayZ version, loaded mods, reproduction steps and expected behavior are clear.
+
 ### Credits
 
-- Fork / adaptation: John2022
+- Fork / adaptation: John2022FR
 - Steam / DayZ author name: John2022FR
 - Technical base: QuickStep by GayCookie
 - Original QuickStep licence: WTFPL
@@ -101,35 +76,6 @@ Une fois activé, le mod maintient automatiquement le déplacement vers l’avan
 - Utilisation des commandes configurées de marche et de sprint du joueur, sans touches codées en dur.
 - Arrêt propre par la touche Auto-Forward, les touches de déplacement, avancer/reculer, saut ou franchissement.
 
-### Commandes
-
-- Auto-Forward Smart Speed : active ou désactive l’avance automatique.
-- Commande configurée de sprint : augmente la vitesse pendant que l’avance automatique est active.
-- Commande configurée de marche : diminue la vitesse pendant que l’avance automatique est active.
-- Déplacement manuel, avancer/reculer, saut ou franchissement : arrête l’avance automatique.
-
-La commande est rangée dans la catégorie Personnage des contrôles.
-
-### Installation
-
-Utilisez la version Steam Workshop autant que possible :
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=3746092811
-
-Pour une installation manuelle, téléchargez l’archive de release et placez `@AutoForward-SmartSpeed` dans le dossier de mods de votre serveur ou de votre client DayZ.
-
-Détails : [docs/INSTALLATION.md](docs/INSTALLATION.md)
-
-### Pour les administrateurs de serveurs
-
-Les serveurs DayZ monétisés peuvent utiliser ce mod, à condition que l’accès au mod lui-même reste gratuit.
-
-Détails : [docs/SERVER_OWNERS.md](docs/SERVER_OWNERS.md)
-
-### Dépannage
-
-Consultez [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) avant d’ouvrir une issue.
-
 ### Informations techniques
 
 - Dossier du mod : `@AutoForward-SmartSpeed`
@@ -139,9 +85,15 @@ Consultez [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) avant d’ouvrir un
 - Version : `1.0`
 - Dépendances : aucune
 
+### Bugs et demandes de fonctionnalités
+
+Les bugs et demandes de fonctionnalités doivent être ouverts depuis l’onglet **Issues** de GitHub.
+
+Utilisez les formulaires prévus afin d’indiquer clairement le contexte serveur, la version de DayZ, les mods chargés, les étapes de reproduction et le comportement attendu.
+
 ### Crédits
 
-- Fork / adaptation : John2022
+- Fork / adaptation : John2022FR
 - Nom d’auteur Steam / DayZ : John2022FR
 - Base technique : QuickStep par GayCookie
 - Licence originale de QuickStep : WTFPL
