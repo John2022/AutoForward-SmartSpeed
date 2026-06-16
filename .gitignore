@@ -1,0 +1,17 @@
+# Private keys must never be committed
+*.biprivatekey
+
+# Temporary files
+*.log
+*.bak
+*.tmp
+__pycache__/
+
+# Local archives
+*.zip
+*.rar
+*.7z
+
+# DayZ tools temporary output
+*.dep
+*.temp

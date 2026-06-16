@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{2F2EBE335D59CF0B}AutoForward_SmartSpeed_v5/AutoForward-SmartSpeed_Source/AFSS/data/afss_preview.png"
+ Author "fx567zc4-hn227"
+ ChangeDate 1840510157
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "afss_preview.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<modded_inputs>
+    <inputs>
+        <actions>
+            <input name="UAAFSSAutoForward" loc="Auto-Forward Smart Speed" />
+        </actions>
+
+        <sorting name="character" loc="main_menu_character">
+            <input name="UAAFSSAutoForward" />
+        </sorting>
+    </inputs>
+
+    <preset>
+        <input name="UAAFSSAutoForward">
+            <btn name="kAdd" />
+        </input>
+    </preset>
+</modded_inputs>

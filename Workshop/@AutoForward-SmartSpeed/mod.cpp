@@ -1,0 +1,10 @@
+name      = "Auto-Forward Smart Speed";
+picture   = "AFSS/data/afss_preview.edds";
+logo      = "AFSS/data/afss_preview.edds";
+logoSmall = "AFSS/data/afss_preview.edds";
+logoOver  = "AFSS/data/afss_preview.edds";
+tooltip   = "Auto-Forward Smart Speed";
+overview  = "Smart auto-forward for DayZ: one key, automatic initial speed detection, and on-the-fly pace adjustment.";
+action    = "";
+author    = "John2022FR";
+version   = "1.0";
