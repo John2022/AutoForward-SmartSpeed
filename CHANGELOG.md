@@ -13,3 +13,17 @@ Initial stable release.
 - Added Character category sorting for the keybind.
 - Reworked internal prefix and configuration under AFSS.
 - Added signed PBO and public key support.
+
+## Version 1.0
+
+Première version stable.
+
+- Ajout de la commande Auto-Forward Smart Speed.
+- Ajout de la détection automatique de la vitesse initiale.
+- Ajout du démarrage en jogging lorsque le mod est activé à l’arrêt.
+- Ajout de la conservation de la vitesse actuelle lorsque le mod est activé en mouvement.
+- Ajout de l’ajustement de la vitesse pendant que l’avance automatique est active, avec les commandes configurées de marche et de sprint du joueur.
+- Ajout des conditions d’arrêt propre avec la touche Auto-Forward, les touches de déplacement, avancer/reculer, saut et franchissement.
+- Ajout du rangement de la commande dans la catégorie Personnage.
+- Refonte du préfixe interne et de la configuration sous AFSS.
+- Ajout du PBO signé et de la clé publique.
