@@ -56,6 +56,10 @@ The mod may be used, modified, repacked and redistributed under the licence cond
 
 See `LICENSE` for details.
 
+### Search keywords
+
+auto forward, auto walk, autorun, auto run, auto jog, smart movement, walking, jogging, running, movement keybind, quality of life, QoL, stamina friendly, long distance travel
+
 ---
 
 ## Français
@@ -105,3 +109,7 @@ Auto-Forward Smart Speed est publié sous la licence Attribution and Free Access
 Le mod peut être utilisé, modifié, repack et redistribué dans le respect des conditions de licence, notamment l’obligation de crédit et l’obligation de maintenir un accès gratuit au mod lui-même.
 
 Voir le fichier `LICENSE` pour le détail.
+
+### Mots-clés de recherche
+
+avance automatique, marche automatique, course automatique, déplacement automatique, auto-run, auto-walk, touche de déplacement, confort de jeu, qualité de vie, longs trajets
