@@ -3,71 +3,68 @@ description: Feature request, server help, compatibility, repack, permission or 
 title: "[Request] "
 labels: ["request"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## English
 
-* type: markdown
-  attributes:
-  value: |
-  ## English
+        Use this form for any request that is not a bug report.
 
-  ```
-  Use this form for any request that is not a bug report.
+        This includes feature requests, server setup questions, compatibility questions, repack or redistribution questions, licence / permission questions, and other general requests.
 
-  This includes feature requests, server setup questions, compatibility questions, repack or redistribution questions, licence / permission questions, and other general requests.
+        ## Français
 
-  ## Français
+        Utilisez ce formulaire pour toute demande qui n’est pas un rapport de bug.
 
-  Utilisez ce formulaire pour toute demande qui n’est pas un rapport de bug.
+        Cela inclut les demandes de fonctionnalités, les questions d’installation serveur, les questions de compatibilité, les questions de repack ou redistribution, les questions de licence / autorisation, et les autres demandes générales.
 
-  Cela inclut les demandes de fonctionnalités, les questions d’installation serveur, les questions de compatibilité, les questions de repack ou redistribution, les questions de licence / autorisation, et les autres demandes générales.
-  ```
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: Request type / Type de demande
+      options:
+        - Feature request / Demande de fonctionnalité
+        - Server setup help / Aide installation serveur
+        - Compatibility request / Demande de compatibilité
+        - Repack or redistribution question / Question repack ou redistribution
+        - Licence or permission question / Question licence ou autorisation
+        - Other / Autre
+    validations:
+      required: true
 
-* type: dropdown
-  id: request_type
-  attributes:
-  label: Request type / Type de demande
-  options:
-  - Feature request / Demande de fonctionnalité
-  - Server setup help / Aide installation serveur
-  - Compatibility request / Demande de compatibilité
-  - Repack or redistribution question / Question repack ou redistribution
-  - Licence or permission question / Question licence ou autorisation
-  - Other / Autre
-  validations:
-  required: true
+  - type: textarea
+    id: request_description
+    attributes:
+      label: Request description / Description de la demande
+      description: Explain what you want, what you are trying to do, or what you need clarification about.
+      placeholder: Describe your request clearly.
+    validations:
+      required: true
 
-* type: textarea
-  id: request_description
-  attributes:
-  label: Request description / Description de la demande
-  description: Explain what you want, what you are trying to do, or what you need clarification about.
-  placeholder: Describe your request clearly.
-  validations:
-  required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context / Contexte
+      description: Add relevant context, such as your server setup, use case, modpack situation, or compatibility concern.
+      placeholder: Server type, loaded mods, intended use, Workshop link, modpack link, etc.
+    validations:
+      required: false
 
-* type: textarea
-  id: context
-  attributes:
-  label: Context / Contexte
-  description: Add relevant context, such as your server setup, use case, modpack situation, or compatibility concern.
-  placeholder: Server type, loaded mods, intended use, Workshop link, modpack link, etc.
-  validations:
-  required: false
+  - type: textarea
+    id: expected_result
+    attributes:
+      label: Expected result / Résultat attendu
+      description: Explain what result you expect or what kind of answer you need.
+      placeholder: What should happen, what should be allowed, or what should be clarified?
+    validations:
+      required: false
 
-* type: textarea
-  id: expected_result
-  attributes:
-  label: Expected result / Résultat attendu
-  description: Explain what result you expect or what kind of answer you need.
-  placeholder: What should happen, what should be allowed, or what should be clarified?
-  validations:
-  required: false
-
-* type: checkboxes
-  id: licence_acknowledgement
-  attributes:
-  label: Licence and credits / Licence et crédits
-  options:
-  - label: I understand that credits to John2022FR and GayCookie / QuickStep must be preserved. / Je comprends que les crédits de John2022FR et GayCookie / QuickStep doivent être conservés.
-  required: true
-  - label: I understand that access to the mod itself must remain free unless written permission is granted. / Je comprends que l’accès au mod lui-même doit rester gratuit sauf autorisation écrite.
-  required: true
+  - type: checkboxes
+    id: licence_acknowledgement
+    attributes:
+      label: Licence and credits / Licence et crédits
+      options:
+        - label: I understand that credits to John2022FR and GayCookie / QuickStep must be preserved. / Je comprends que les crédits de John2022FR et GayCookie / QuickStep doivent être conservés.
+          required: true
+        - label: I understand that access to the mod itself must remain free unless written permission is granted. / Je comprends que l’accès au mod lui-même doit rester gratuit sauf autorisation écrite.
+          required: true
